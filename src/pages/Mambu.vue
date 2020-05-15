@@ -38,28 +38,22 @@ export default {
   },
   methods: {
     async getID() {
-      const res = await axios.get(baseURL, {
-        auth: {
-          username: 'Team64',
-          password: 'pass2782956C9' 
-        },
-        headers: {
-          key: "Content-Type",
-					value: "application/json",
-					type: "text"
-        }, data
-      }).then(function(response) {
-        console.log('Authenticated');
-      }).catch(function(error) {
-        console.log('Error');
-      });
+    var config = {
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": "Basic VGVhbTY0OnBhc3MyNzgyOTU2Qzk=",
+        "Access-Control-Allow-Origin" : "*",
+        "Access-Control-Allow-Credentials" : "true",
+        "Access-Control-Allow-Methods" : "GET, POST, OPTIONS",
+        "Access-Control-Allow-Headers" : "Origin, Content-Type, Accept"
+      }
+    }
+    try {
+      const res = await axios.get(baseURL, config)
+    } catch(e) {
+      console.error(e)
     }
   }
-      
-      // this.todos = [...this.todos, res.data]
-
-      // this.todoName = ''
-  //   }
-  // }
+  }
 }
 </script>
