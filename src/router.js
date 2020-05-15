@@ -5,8 +5,11 @@ import Index from './pages/Index.vue';
 import Landing from './pages/Landing.vue';
 import Login from './pages/Login.vue';
 import Profile from './pages/Profile.vue';
+import RazeFunds from './pages/RazeFunds.vue';
+
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
+
 
 Vue.use(Router);
 
@@ -43,6 +46,15 @@ export default new Router({
       path: '/profile',
       name: 'profile',
       components: { default: Profile, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/fundraze',
+      name: 'fundraze',
+      components: { default: RazeFunds, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
