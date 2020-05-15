@@ -8,7 +8,7 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">This is our great company.</h1>
+          <h1 class="title">Walkthrough</h1>
           <div class="text-center">
             <a href="#pablo" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-facebook-square"></i>
@@ -29,10 +29,9 @@
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title">Who we are?</h2>
             <h5 class="description">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low
-              maximum sea ice extent tihs year down to low ice extent in the
-              Pacific and a late drop in ice extent in the Barents Sea.
+              We are 4 entrepreneurial students from NUS. We believe that
+              technology is what drives modern companies. Therefore, we understand 
+              the need to digitalise quickly.
             </h5>
           </div>
         </div>
@@ -46,12 +45,10 @@
               >
                 <!-- First image on the left side -->
                 <p class="blockquote blockquote-primary">
-                  "Over the span of the satellite record, Arctic sea ice has
-                  been declining significantly, while sea ice in the
-                  Antarctichas increased very slightly"
+                  "Success usually comes to those who are too busy to be looking for it."
                   <br />
                   <br />
-                  <small>-NOAA</small>
+                  <small>-Henry David Thoreau</small>
                 </p>
               </div>
               <!-- Second image on the left side of the article -->
@@ -67,34 +64,30 @@
                 style="background-image: url('img/bg1.jpg')"
               ></div>
               <h3>
-                So what does the new record for the lowest level of winter ice
-                actually mean
+                <b>Step 1</b>
               </h3>
               <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
+                Start from our RazeAwareness page to understand the various
+                technologies that are needed for your company to grow.
               </p>
+              <h3>
+                <b>Step 2</b>
+              </h3>
               <p>
-                For a start, it does not automatically follow that a record
-                amount of ice will melt this summer. More important for
-                determining the size of the annual thaw is the state of the
-                weather as the midnight sun approaches and temperatures rise.
-                But over the more than 30 years of satellite records, scientists
-                have observed a clear pattern of decline, decade-by-decade.
+                Compare all the technologies that your previously read about
+                in the RazeScanner page. Like a shopping cart, add the technologies
+                that you are most interested into a single page and seek to make 
+                payment for them asap.
               </p>
+              <h3>
+                <b>Step 3</b>
+              </h3>
               <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
+                Taken aback by the exorbitant fee at the end of your previous 
+                page? Fret Not. In this step, you can easily find your sources 
+                of funding. In priority, you can check for any government funds that 
+                you are eligible for. Second, you can check for loans that you can take 
+                from the various banks. Lastly, you can attain funds through angel investors.
               </p>
             </div>
           </div>
@@ -113,7 +106,7 @@
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                 />
-                <h4 class="title">Romina Hadid</h4>
+                <h4 class="title">Lawnce Goh</h4>
                 <p class="category text-primary">Model</p>
                 <p class="description">
                   You can write here details about one of your team members. You
@@ -139,7 +132,7 @@
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                 />
-                <h4 class="title">Ryan Tompson</h4>
+                <h4 class="title">Lee Wei Gen</h4>
                 <p class="category text-primary">Designer</p>
                 <p class="description">
                   You can write here details about one of your team members. You
@@ -162,7 +155,33 @@
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                 />
-                <h4 class="title">Eva Jenner</h4>
+                <h4 class="title">Caesar Pang</h4>
+                <p class="category text-primary">Fashion</p>
+                <p class="description">
+                  You can write here details about one of your team members. You
+                  can give more details about what they do. Feel free to add
+                  some <a href="#">links</a> for people to be able to follow
+                  them outside the site.
+                </p>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-google-plus"></i
+                ></a>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-player">
+                <img
+                  src="img/eva.jpg"
+                  alt="Thumbnail Image"
+                  class="rounded-circle img-fluid img-raised"
+                />
+                <h4 class="title">Jordan Seow</h4>
                 <p class="category text-primary">Fashion</p>
                 <p class="description">
                   You can write here details about one of your team members. You
@@ -185,7 +204,7 @@
         </div>
       </div>
     </div>
-    <div class="section section-contact-us text-center">
+    <!-- <div class="section section-contact-us text-center">
       <div class="container">
         <h2 class="title">Want to work with us?</h2>
         <p class="description">Your project is very important to us.</p>
@@ -223,7 +242,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
