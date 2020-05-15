@@ -12,10 +12,13 @@
     "element-ui": "^2.5.4",
     "nouislider": "^11.1.0",
     "vue": "^2.6.6",
+    "vue-accordion": "^1.0.0",
+    "vue-faq-accordion": "^1.5.0",
     "vue-lazy-load": "^0.0.7",
     "vue-lazyload": "^1.2.6",
     "vue-router": "^3.0.2",
-    "vue2-transitions": "^0.2.3"
+    "vue2-transitions": "^0.2.3",
+    "vuetify": "^2.2.28"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",

@@ -7,6 +7,7 @@ import Login from './pages/Login.vue';
 import Profile from './pages/Profile.vue';
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
+import RazeAwareness from './pages/RazeAwareness.vue';
 
 Vue.use(Router);
 
@@ -15,8 +16,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'index',
-      components: { default: Index, header: MainNavbar, footer: MainFooter },
+      name: 'RazeAwareness',
+      components: { default: RazeAwareness, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
