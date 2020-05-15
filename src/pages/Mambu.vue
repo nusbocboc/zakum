@@ -17,7 +17,7 @@
 <script>
 import axios from 'axios';
 
-const baseURL = "https://razerhackathon.sandbox.mambu.com/api/settings/iddocumenttemplates"
+const baseURL = "http://localhost:3002"
 
 export default {
   name: 'app',
@@ -41,15 +41,12 @@ export default {
     var config = {
       headers: {
         "Content-Type": "application/json",
-        "Authorization": "Basic VGVhbTY0OnBhc3MyNzgyOTU2Qzk=",
-        "Access-Control-Allow-Origin" : "*",
-        "Access-Control-Allow-Credentials" : "true",
-        "Access-Control-Allow-Methods" : "GET, POST, OPTIONS",
-        "Access-Control-Allow-Headers" : "Origin, Content-Type, Accept"
+        "Authorization": "Basic VGVhbTY0OnBhc3MyNzgyOTU2Qzk="
       }
     }
     try {
-      const res = await axios.get(baseURL, config)
+      const res = await axios.get(baseURL + "/test");
+      console.log(res)
     } catch(e) {
       console.error(e)
     }
