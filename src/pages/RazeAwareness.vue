@@ -102,7 +102,7 @@ export default {
     color: orange; 
     text-shadow: 1px 1px gray, 0 0 2px black, 0 0 4px white;
     letter-spacing: 1px;
-  }
+  } */
   
   .content {
     padding-top: 0px;
@@ -116,4 +116,5 @@ export default {
     background-color: fade(white,80%); 
   }
 }
+
 </style>
